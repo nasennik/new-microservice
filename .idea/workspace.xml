@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e438bd1b-ca4e-4928-abbb-110badd9f78d" name="Changes" comment="complete service">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/microservices/inventoryservice/InventoryServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/microservices/inventoryservice/controller/InventoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/microservices/inventoryservice/model/Inventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/microservices/inventoryservice/repository/InventoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/microservices/inventoryservice/service/InventoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-service/src/test/java/com/microservices/inventoryservice/InventoryServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/microservices/orderservice/OrderServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/microservices/orderservice/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/microservices/orderservice/dto/OrderLineItemsDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/microservices/orderservice/dto/OrderRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/microservices/orderservice/model/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/microservices/orderservice/model/OrderLineItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/microservices/orderservice/repository/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/microservices/orderservice/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/test/java/com/microservices/orderservice/OrderServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/microservices/productservice/ProductServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/microservices/productservice/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/microservices/productservice/dto/ProductRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/microservices/productservice/dto/ProductResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/microservices/productservice/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/microservices/productservice/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/microservices/productservice/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/microservices/productservice/util/DataLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/test/java/com/microservices/productservice/ProductServiceApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2VNHYiPrpQBe3qk0L3EccunBJ9i" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "D:/projects/microservice-new/product-service",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projects\microservice-new\product-service" />
+      <recent name="D:\projects\microservice-new\inventory-service" />
+      <recent name="D:\projects\microservice-new\order-service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.InventoryServiceApplication">
+    <configuration name="ProductServiceApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="product-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.microservices.productservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.microservices.productservice" />
+      <option name="MAIN_CLASS_NAME" value="com.microservices.productservice.ProductServiceApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductServiceApplicationTests.shouldCreateProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="product-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.microservices.productservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.microservices.productservice" />
+      <option name="MAIN_CLASS_NAME" value="com.microservices.productservice.ProductServiceApplicationTests" />
+      <option name="METHOD_NAME" value="shouldCreateProduct" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InventoryServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="inventory-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.microservices.inventoryservice.InventoryServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="order-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.microservices.orderservice.OrderServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="product-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.microservices.productservice.ProductServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ProductServiceApplicationTests" />
+        <item itemvalue="JUnit.ProductServiceApplicationTests.shouldCreateProduct" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e438bd1b-ca4e-4928-abbb-110badd9f78d" name="Changes" comment="" />
+      <created>1694669668864</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694669668864</updated>
+      <workItem from="1694669670085" duration="4738000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="complete service" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete service" />
+  </component>
+</project>
